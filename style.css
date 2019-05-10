@@ -1,0 +1,110 @@
+p{
+
+ font-family: Helvetica, Arial, Sans-Serif;
+
+
+
+}
+body{
+
+
+  position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
+h1{
+
+  text-align: center;
+  color: white;
+font-family: 'Major Mono Display', monospace;
+  font-size:80px;
+
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#plan{
+
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  position: relative;
+  left: 350px;
+
+}
+
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:16px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body*/
+  left:0;            /*and to the left of the body.*/
+
+  /*EFFECTS*/
+  animation:jump .5s linear;
+  animation-iteration-count:2;
+  animation-delay:1s;
+}
+
+@keyframes jump {
+  50% {
+    bottom:32px;
+  }
+}
+
+#galery{
+  font-family: cursive;
+  color: white;
+}
+
+#c{
+
+position: fixed;
+top: 620px;
+
+
+}
+
+#story{
+position: relative;
+top:50px;
+
+
+
+}
